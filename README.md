@@ -1,35 +1,70 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Into Scent 
 
-Welcome TomokokomoT,
+This project is created to run the fictional workshops for those who would like to gain the knowledge of essential oils and recognise the importance of their well-being physically and mentally 
+and also designed to demonstrate my abilities with HTML and CSS using Bootstrap for my first milestone project for Code Institute. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+This site is designed to provide the basic knowledge and safe usage of natural plant extracts / essential oils for those who are new to aromatherapy 
+or would like to improve the health of body and mind, offering different types of workshops. The user is able to see what workshops are currently organised and  to book a workshops online. 
+It is also possible to make an enquiry or request by filling a form.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+- As a parent, I am looking into some ways to bond with my baby. Meantime I would like to learn about essential oils and the benefits of massage. 
+- As a new to aromatherapy, I would like to learn the basics about essential oils and to be able to use them at home.
+- As a (potential/curious user), I am looking for some kind of alternatives to improve my physical and mental health in the most natural way possible.
 
-A blue button should appear to click: *Expose*,
+### The site owner's aim
 
-Another blue button should appear to click: *Open Browser*.
+- To increase awareness of workshops / chance of expanding the business in the future 
+- To collect the user's current needs
+- To provide safe guidance of the usage of essential oils  (pros & cons)
+- To acknowledge people the importance of their well-being physically and mentally
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Design
 
-A blue button should appear to click: *Expose*,
+You can find the wireflame I made [here]. (#) The link directs you to PDF file.
 
-Another blue button should appear to click: *Open Browser*.
+## Feature
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Existing Features
+- A responsive navigation bar
+- Submit forms
+- One page scrolling
+- 
 
-## Updates Since The Instructional Video
+### Features Left to Implement
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Technologies Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Testing
 
-Happy coding!
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+
+## Credits
+### Content
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
