@@ -65,7 +65,7 @@
 		<div class="row">
 			<div class="col-12 col-md-4 col-lg-4">
 				<div class="workshop">
-					<h4><i class="fas fa-child d-none d-sm-inline"></i>Baby Yoga</h4>
+					<h4><i class="fas fa-child d-none d-sm-inline"></i>Baby Massage</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 						Aenean
 						massa.
@@ -75,7 +75,7 @@
 						justo, fringilla vel,
 						aliquet nec, vulputate eget, arcu.
 					</p>
-					<p><a class="btn btn-sm btn-light" href="#">Book now</a></p>
+					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#bookNowModal" href="#">Book now</button>
 				</div>
 			</div>
 			<div class="col-12 col-md-4 col-lg-4">
@@ -90,7 +90,7 @@
 						justo, fringilla vel,
 						aliquet nec, vulputate eget, arcu.
 					</p>
-					<p><a class="btn btn-sm btn-light" href="#">Book now</a></p>
+					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#bookNowModal" href="#">Book now</button>
 				</div>
 			</div>
 			<div class="col-12 col-md-4 col-lg-4">
@@ -104,7 +104,7 @@
 						justo, fringilla vel,
 						aliquet nec, vulputate eget, arcu.
 					</p>
-					<p><a class="btn btn-sm btn-light" href="#">Book now</a></p>
+					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#bookNowModal" href="#">Book now</button>
 				</div>
 			</div>
 			<!---/.workshops details --->
@@ -156,25 +156,61 @@
 		</div>
 	</footer>
 
-    <div class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="modal" tabindex="-1" role="dialog" id="bookNowModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Book a workshop!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                    </button>
+				</div>
+				<div class="modal-body">
+					<form>
+                        <div class="form-group row">
+							<label for="fullname" class="col-sm-4 col-form-label">Full name</label>
+                            <div class="col-sm-8">
+							<input type="text" class="form-control" id="fullname" placeholder="Full name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+							<label for="staticEmail" class="col-sm-4 col-form-label">Email address</label>
+                            <div class="col-sm-08">
+							<input type="email" class="form-control" id="staticEmail" placeholder="name@example.com">
+                            </div>
+                        </div>
+						<div class="form-group row">
+								<label for="exampleFormControlSelect1">Example select</label>
+								<select class="form-control" id="exampleFormControlSelect1">
+                                     <option>1</option>
+                                     <option>2</option>
+                                     <option>3</option>
+                                     <option>4</option>
+                                     <option>5</option>
+                               </select>
+						</div>
+						<div class="form-group">
+								<label for="exampleFormControlSelect2">Example multiple select</label>
+								<select multiple class="form-control" id="exampleFormControlSelect2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+							</div>
+							<div class="form-group">
+								<label for="exampleFormControlTextarea1">Example textarea</label>
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+							</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-outline-secondary">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
