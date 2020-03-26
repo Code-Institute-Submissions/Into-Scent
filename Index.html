@@ -24,7 +24,8 @@
 				<ul class="navbar-nav ml-auto">
 					<li class=" active nav-item ml-2" aria-current="page"><a class="nav-link" href="#">Home</a></li>
 					<li class="nav-item ml-2"><a class="nav-link" href="#workshops">Workshops</a></li>
-					<li class="nav-item ml-2"><a class="nav-link" data-toggle="modal" data-target="#contactUsModal" href="#">Contact us</a></li>
+					<li class="nav-item ml-2"><a class="nav-link" data-toggle="modal" data-target="#enquiryFormModal"
+							href="#">Contact us</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -75,7 +76,7 @@
 						justo, fringilla vel,
 						aliquet nec, vulputate eget, arcu.
 					</p>
-					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#bookNowModal" href="#">Book now</button>
+					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#enquiryFormModal" href="#">Book now</button>
 				</div>
 			</div>
 			<div class="col-12 col-md-4 col-lg-4">
@@ -90,7 +91,7 @@
 						justo, fringilla vel,
 						aliquet nec, vulputate eget, arcu.
 					</p>
-					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#bookNowModal" href="#">Book now</button>
+					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#enquiryFormModal" href="#">Book now</button>
 				</div>
 			</div>
 			<div class="col-12 col-md-4 col-lg-4">
@@ -104,7 +105,7 @@
 						justo, fringilla vel,
 						aliquet nec, vulputate eget, arcu.
 					</p>
-					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#bookNowModal" href="#">Book now</button>
+					<button class="btn btn-sm btn-light" data-toggle="modal" data-target="#enquiryFormModal" href="#">Book now</button>
 				</div>
 			</div>
 			<!---/.workshops details --->
@@ -152,105 +153,75 @@
 						</li>
 					</ul>
 				</div>
-                <!---/.footer--->
+				<!---/.footer--->
 			</nav>
 		</div>
 	</footer>
 
 
-    <!---Booking form --->
-	<div class="modal" tabindex="-1" role="dialog" id="bookNowModal">
+	<!---Enquiry form --->
+	<div class="modal" tabindex="-1" role="dialog" id="enquiryFormModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title">Book a workshop!</h5>
+					<h5 class="modal-title">Contact us!</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                        <span aria-hidden="true">&times;</span>
                     </button>
 				</div>
 				<div class="modal-body">
 					<form>
-                        <div class="form-group">
-							<label for="fullname">Full name:</label>
-							<input type="text" class="form-control" id="fullname" placeholder="full name">
+						<div class="form-row">
+							<div class="col">
+								<label for="firstname">First name:</label>
+								<input type="text" class="form-control" id="firstname" placeholder="First name" required>
+                           </div>
+								<div class="col">
+									<label for="lastname">Last name:</label>
+									<input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+                            </div>
+								</div>
+								<div class="form-group">
+									<label for="staticEmail">Email address:</label>
+									<input type="email" class="form-control" id="staticEmail" placeholder="name@example.com" required>
                         </div>
-                        <div class="form-group">
-							<label for="staticEmail">Email address:</label>
-							<input type="email" class="form-control" id="staticEmail" placeholder="name@example.com">
-                        </div>
-						<div class="form-group">
-								<label for="exampleFormControlSelect1">No. of Participant?</label>
-								<select class="form-control" id="exampleFormControlSelect1">
-                                     <option>1</option>
-                                     <option>2</option>
-                                     <option>3</option>
-                                     <option>4</option>
-                                     <option>5</option>
-                               </select>
-						</div>
-						<div class="form-group">
-								<label for="exampleFormControlSelect2">Select a workshop:</label>
-								<select class="form-control" id="exampleFormControlSelect2">
-                                    <option>Baby Massage</option>
-                                    <option>Relaxing</option>
-                                    <option>Focus/Energy</option>
-                                </select>
-							</div>
-							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Message:</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-							</div>
-					</form>
-				</div>	
-                <div class="modal-footer">				
-                      <button type="submit" class="btn btn-outline-secondary" value="submit">Submit</button>
-				</div>
-			</div>
-		</div>
-	</div>
-    <!---/.booking form --->
-
-     <!---Contact us form --->
-     <div class="modal" tabindex="-1" role="dialog" id="contactUsModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Contact us</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                       <span aria-hidden="true">&times;</span>
-                    </button>
-				</div>
-				<div class="modal-body">
-					<form>
-                        <div class="form-group">
-							<label for="fullname">Full name:</label>
-							<input type="text" class="form-control" id="fullname" placeholder="full name">
-                        </div>
-                        <div class="form-group">
-							<label for="staticEmail">Email address:</label>
-							<input type="email" class="form-control" id="staticEmail" placeholder="name@example.com">
-                        </div>
-						<div class="form-group">
-								<label for="contactFormContral">Type of an enquiry:</label>
-								<select class="form-control" id="contactFormContral">
+									<div class="form-group">
+										<label for="exampleFormControlSelect2">Select a topic:</label>
+										<select class="form-control" id="exampleFormControlSelect2" required>
                                     <option>General enquiry</option>
-                                    <option>Workshops</option>
                                     <option>Group booking</option>
+                                    <option>Workshop-Baby Massage</option>
+                                    <option>Workshop-Relaxing</option>
+                                    <option>Workshop-Focus/Energy</option>
                                 </select>
-							</div>
-							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Message:</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-							</div>
+									</div>
+									<div class="form-group">
+										<label for="numberParticiapnt">No. of Participant? (if applicable)</label>
+										<input type="text" class="form-control" id="numberParticiapnt">
+						</div>
+										<div class="form-group">
+											<label for="exampleFormControlTextarea1">Message:</label>
+											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
+										</div>
 					</form>
-				</div>	
-                <div class="modal-footer">				
-                      <button type="submit" class="btn btn-warning" value="submit">Submit</button>
+				</div>
+				<div class="form-group">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+						<label class="form-check-label" for="invalidCheck">I agree to terms and conditions</label>
+						<div class="invalid-feedback">
+							You must agree before submitting.
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-outline-secondary" value="submit">Submit</button>
 				</div>
 			</div>
 		</div>
 	</div>
-    <!---/.contact us form --->
+	<!---/.enquiry form --->
+
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
