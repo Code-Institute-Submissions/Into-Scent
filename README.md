@@ -24,11 +24,7 @@ It is also possible to make an enquiry or request by filling a form.
 
 ### Design
 
-<<<<<<< HEAD
 You can find the wireflame I made [here](wireframe/wireframe.pdf). The link directs you to PDF file.
-=======
-You can find the wireflame I made [here]. (wireframe/wireframe.pdf) The link directs you to PDF file.
->>>>>>> 02178944bc0ee7d18f877265b8a465b930c2695f
 
 ## Feature
 
