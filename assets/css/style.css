@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,70');
-
 
 body {
     font-family: 'Open Sans', sans-serif, 
+
 }
 
-/*---------------- Home/container */
+/*---------------- container */
+
+.callout-container {
+    height: 100vh;
+    
+}
+
+.workshops-container {
+
+}
+
+.footer-container {
+
+}
 
 
 
-/*---------------- Home/nav bar */
+/*---------------- nav bar */
 
