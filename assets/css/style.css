@@ -6,10 +6,35 @@ body {
 
 /*---------------- container */
 
+/* taken from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 */
+
 .callout-container {
     height: 100vh;
-    
+    background: url(../images/essential-oils.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
 }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    widows: 100%;
+    background-color: rgba(0, 0, 0, 5)
+}
+
+/* -----/taken from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 */
+
 
 .workshops-container {
 
@@ -19,7 +44,24 @@ body {
 
 }
 
+.termsConditions-container {
+
+}
 
 
-/*---------------- nav bar */
+
+/*---------------- jumbotron */
+
+.jumbotron {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 32px;
+    background-color: rgba(226, 245, 158, 0.2);
+}
+
+.jumbotron-header {
+    color: #034722;
+    font-weight: bold;
+    margin-bottom: 30px:
+}
 
