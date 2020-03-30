@@ -4,6 +4,7 @@ body {
 
 }
 
+
 /*---------------- container */
 
 /* taken from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 */
@@ -15,11 +16,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 
 }
@@ -30,7 +29,7 @@ body {
     left: 0;
     height: 100%;
     widows: 100%;
-    background-color: rgba(0, 0, 0, 5)
+    
 }
 
 /* -----/taken from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 */
@@ -62,6 +61,14 @@ body {
 .jumbotron-header {
     color: #034722;
     font-weight: bold;
+    font-size: 38px;
     margin-bottom: 30px:
+}
+
+.jumbotron .lead {
+    color: #021a0d;
+    font-weight: 500;
+    margin: 25px 0;
+    
 }
 
