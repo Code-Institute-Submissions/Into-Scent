@@ -47,6 +47,26 @@ body {
 
 }
 
+/*---------------- navbar */
+
+.navbaralert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right:0;
+    padding-left: 0;
+    z-index: 1;
+}
+
+.navbar {
+     margin-bottom: 0;
+     border: 0;
+     width: 100%;
+     background-color: rgba(240, 50, 50, 0);
+     color: #034722;
+    
+}
+
 
 
 /*---------------- jumbotron */
@@ -62,7 +82,8 @@ body {
     color: #034722;
     font-weight: bold;
     font-size: 38px;
-    margin-bottom: 30px:
+    margin-top: 20px;
+    margin-bottom: 40px:
 }
 
 .jumbotron .lead {
@@ -70,5 +91,13 @@ body {
     font-weight: 500;
     margin: 25px 0;
     
+}
+
+/*---------------- buttons */
+
+.btn--cta {
+    font-weight: bold;
+    color: #034722;
+    border-radius: 30px;
 }
 
