@@ -4,6 +4,12 @@ body {
 
 }
 
+.block-under-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*---------------- container */
 
@@ -15,12 +21,12 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;    
+    background-attachment: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-
 }
 
 .opaque-overlay {
@@ -29,7 +35,13 @@ body {
     left: 0;
     height: 100%;
     widows: 100%;
-    
+}
+
+.workshops-container {
+    color: #034722;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 /* -----/taken from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 */
@@ -60,12 +72,42 @@ body {
 
 .navbar {
      margin-bottom: 0;
-     border: 0;
+     border: 1;
      width: 100%;
      background-color: rgba(240, 50, 50, 0);
      color: #034722;
     
 }
+
+.navbar-bg-color {
+    background-color: rgba(226, 245, 158, 0.2);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.navbar .navbar-nav a {
+    font-size: 20px;
+}
+
+.navbar-nav {
+    flex-direction: column;
+    list-style: none;
+}
+ .nav-item {
+    letter-spacing: 2px;
+    display: block;
+
+ }
 
 
 
@@ -101,3 +143,17 @@ body {
     border-radius: 30px;
 }
 
+/*----------------/ buttons */
+
+
+.workshops-header {
+    color: #034722;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
