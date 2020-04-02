@@ -4,6 +4,23 @@ body {
 
 }
 
+.container-wrapper {
+    background-color: #dde7b2e7;
+
+}
+
+/*---------------- header */
+
+.workshops-header {
+    color: #034722;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
 .block-under-header {
     width: 100%;
     margin: 0;
@@ -37,19 +54,18 @@ body {
     widows: 100%;
 }
 
-.workshops-container {
-    color: #034722;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 30px;
-}
+
 
 /* -----/taken from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 */
 
 
 .workshops-container {
-
+    color: #034722;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
+
 
 .footer-container {
 
@@ -71,16 +87,11 @@ body {
 }
 
 .navbar {
-     margin-bottom: 0;
+     margin: 10px, 10px, 0, 10px;
      border: 1;
      width: 100%;
-     background-color: rgba(240, 50, 50, 0);
      color: #034722;
     
-}
-
-.navbar-bg-color {
-    background-color: rgba(226, 245, 158, 0.2);
 }
 
 .navbar .navbar-toggler {
@@ -97,17 +108,22 @@ body {
 
 .navbar .navbar-nav a {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .navbar-nav {
+    text-align: right;
     flex-direction: column;
     list-style: none;
+    padding: 0;
 }
  .nav-item {
     letter-spacing: 2px;
     display: block;
+    
 
  }
+
 
 
 
@@ -143,17 +159,23 @@ body {
     border-radius: 30px;
 }
 
-/*----------------/ buttons */
 
 
-.workshops-header {
-    color: #034722;
-    font-weight: bold;
-    font-size: 38px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    letter-spacing: 2px;
-    text-align: center;
+/*----------------block-divider*/
 
-
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
 }
+
+/*---------------- Content Container*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+
