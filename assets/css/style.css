@@ -5,19 +5,20 @@ body {
 }
 
 .container-wrapper {
-    background-color: #dde7b2e7;
+    background-color: #eef7cae7;
+
 
 }
 
 /*---------------- header */
 
 .workshops-header {
-    color: #034722;
+    color: rgb(30, 32, 32);
     font-weight: bold;
     font-size: 38px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     text-align: center;
 }
 
@@ -26,6 +27,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
 
 
 /*---------------- container */
@@ -60,10 +64,18 @@ body {
 
 
 .workshops-container {
-    color: #034722;
+    color: rgb(30, 32, 32);
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding-top: 30px;
+}
+
+.termsConditions-container {
+    background-color: rgb(241, 235, 235);
+    padding-top: 30px;
+    margin: 0;
+
+
 }
 
 
@@ -71,9 +83,7 @@ body {
 
 }
 
-.termsConditions-container {
 
-}
 
 /*---------------- navbar */
 
@@ -87,11 +97,15 @@ body {
 }
 
 .navbar {
-     margin: 10px, 10px, 0, 10px;
+     padding-left: 0px;
+     padding-right: 0px;
      border: 1;
      width: 100%;
-     color: #034722;
+     color: rgb(30, 32, 32);
     
+}
+.navbar-bg-color {
+    background-color: #ffffff;
 }
 
 .navbar .navbar-toggler {
@@ -99,17 +113,14 @@ body {
 }
 
 .navbar .navbar-brand {
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     text-align: center;
     margin-left: 30px;
 }
 
-.navbar .navbar-nav a {
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 .navbar-nav {
     text-align: right;
@@ -133,11 +144,11 @@ body {
     padding-top: 14px;
     padding-bottom: 14px;
     margin-top: 32px;
-    background-color: rgba(226, 245, 158, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .jumbotron-header {
-    color: #034722;
+    color: rgb(30, 32, 32);
     font-weight: bold;
     font-size: 38px;
     margin-top: 20px;
@@ -145,7 +156,7 @@ body {
 }
 
 .jumbotron .lead {
-    color: #021a0d;
+    color: #33423a;
     font-weight: 500;
     margin: 25px 0;
     
@@ -155,8 +166,20 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    color: #034722;
-    border-radius: 30px;
+    color: rgb(30, 32, 32);
+    background-color: transparent;
+    border-color: rgb(30, 32, 32);
+}
+
+
+
+.btn--dark:hover,
+.btn--dark:active,
+.btn--dark:focus,
+.btn--dark:active:focus {
+    background-color: rgb(30, 32, 32);
+    border-color: rgb(30, 32, 32);
+    color: white;
 }
 
 
@@ -173,9 +196,45 @@ body {
 /*---------------- Content Container*/
 
 .content-container {
-    padding-top: 75px;
+    padding-top: 30px;
     padding-bottom: 75px;
 }
 
 
 
+/*---------------- workshops content*/
+
+.workshop h4 {
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+
+}
+
+.workshops-container p {
+    margin-bottom: 50px;
+}
+
+
+.btn-light button {
+    background-color: transparent;
+    border-color: rgb(30, 32, 32);
+}
+
+/*---------------- terms&conditions content*/
+
+.termsConditions-header h2 {
+    margin-top: 30px
+    margin-bottom: 20px;
+}
+
+.termsConditions-header p {
+    margin-bottom: 30px;
+}
+
+.termsConditions-content {
+    margin-left: 50px;
+    margin-right:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
