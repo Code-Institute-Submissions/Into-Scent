@@ -65,21 +65,24 @@ body {
 
 .workshops-container {
     color: rgb(30, 32, 32);
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 30px;
 }
 
 .termsConditions-container {
     background-color: rgb(241, 235, 235);
-    padding-top: 30px;
-    margin: 0;
-
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
 }
 
 
 .footer-container {
+    color: rgb(30, 32, 32);
+    font-size: 12px;
+    padding-top: 10px;
 
 }
 
@@ -97,8 +100,8 @@ body {
 }
 
 .navbar {
-     padding-left: 0px;
-     padding-right: 0px;
+     padding-left: 0;
+     padding-right: 0;
      border: 1;
      width: 100%;
      color: rgb(30, 32, 32);
@@ -242,10 +245,40 @@ body {
     margin-bottom: 30px;
 }
 
-.termsConditions-content {
-    margin-left: 50px;
-    margin-right:50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+/*---------------- footer*/
+
+footer {
+    background-color: #ffffff;
+    min-height: 120px;
+
 }
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+/* style taken from Putting It All Together | Mini Project with Bootstrap 4 */
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px, 0;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 7px;
+    text-align: center;
+    color: rgb(30, 32, 32);
+    transition: all 0.35s, ease-in-out;
+    -moz-transition: all 0.35s, ease-in-out;
+    -webkit-transition: all 0.35s, ease-in-out;
+    -o-transition: all 0.35s, ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: rgb(30, 32, 32);
+    color: white;
+}
+
+/* -------/style taken from Putting It All Together | Mini Project with Bootstrap 4 */
+
+
