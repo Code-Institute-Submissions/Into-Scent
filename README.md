@@ -30,18 +30,24 @@ You can find the wireflame I made [here](wireframe/wireframe.pdf). The link dire
 
 ### Existing Features
 - A responsive navigation bar
-- Submit forms
+- A submit forms
 - One page scrolling
-- 
+
 
 ### Features Left to Implement
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+For this project I have used the following technologies.
+
+1. HTML5: Used for structuring and presenting content on the website.
+2. CSS3: Used to style the website.
+3. Bootstrap: A frontend framework to build a responsive and moblie-first website and get support for JavaScript plugins.
+4. GitHub: Used to creat and store the source code for the project.
+5. Balsamiq: For careating a wireframe to generate my idea for this project.
 
 
-## Testing
+## Testings
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -59,12 +65,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The image used in this site was taken from [pixabay](https://pixabay.com/users/mareefe-2090044/).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 
+and [Neal's Yard Remedies](https://www.nealsyardremedies.com/).
+
