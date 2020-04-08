@@ -30,7 +30,7 @@ You can find the wireflame I made [here](wireframe/wireframe.pdf). The link dire
 
 ### Existing Features
 - A responsive navigation bar
-- A submit forms
+- A modal, pop-up window for enquiry form
 - One page scrolling
 
 

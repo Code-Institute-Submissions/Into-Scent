@@ -269,11 +269,16 @@
 									<div class="form-group">
 										<label for="numberParticiapnt">No. of Participant? (if applicable)</label>
 										<input type="text" class="form-control" id="numberParticiapnt">
-						           </div>
-										<div class="form-group">
-											<label for="exampleFormControlTextarea1">Message:</label>
-											<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
-										</div>
+						            </div>
+                                    <div class="form-group">
+                                        <label for="datei-input">Select a date: (if applicable)</label>
+										<input class="date-input-native" id="date" type="date" name="date" min="2020-06-01" max="2021-06-30">
+                                        <div id="picker" hidden></div>
+						            </div>
+								    <div class="form-group">
+										<label for="exampleFormControlTextarea1">Message:</label>
+										<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
+								    </div>
 					</form>
 				</div>
 				<div class="form-group">
