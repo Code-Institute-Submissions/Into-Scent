@@ -268,22 +268,33 @@ footer {
 
 .footer-details {
     list-style: none;
-    line-height: 100px;
+    line-height: 130px;
+    padding-left: 0;
+}
+
+.footer-detail-list {
+    font-size: 14px;
 }
 
 .social-links {
     padding-bottom: 15px;
-
+    letter-spacing: 10px;
 }
+
+.copyright {
+    text-align: center;
+}
+
+
 
 /* style taken from Putting It All Together | Mini Project with Bootstrap 4 */
 .social-links li a i {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     padding: 12px, 0;
     border-radius: 50%;
-    font-size: 12px;
-    line-height: 7px;
+    font-size: 18px;
+    line-height: 12px;
     text-align: center;
     color: rgb(30, 32, 32);
     transition: all 0.35s, ease-in-out;
