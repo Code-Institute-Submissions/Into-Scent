@@ -19,12 +19,12 @@ It is also possible to make an enquiry or request by filling a form.
 
 - To increase awareness of workshops / chance of expanding the business in the future 
 - To collect the user's current needs
-- To provide safe guidance of the usage of essential oils  (pros & cons)
+- To provide safe guidance of the usage of essential oils
 - To acknowledge people the importance of their well-being physically and mentally
 
 ### Design
 
-You can find the wireflame I made [here](wireframe/wireframe.pdf). The link directs you to PDF file.
+You can find the wireframe I made [here](wireframe/wireframe.pdf). The link directs you to PDF file.
 
 ## Feature
 
@@ -33,24 +33,20 @@ You can find the wireflame I made [here](wireframe/wireframe.pdf). The link dire
 - A modal, pop-up window for enquiry form
 - One page scrolling
 
-
-### Features Left to Implement
-
 ## Technologies Used
 
 For this project I have used the following technologies.
 
 1. HTML5: Used for structuring and presenting content on the website.
 2. CSS3: Used to style the website.
+3. jQuery & JavaScript: Used for modal and navbar.
 3. Bootstrap: A frontend framework to build a responsive and moblie-first website and get support for JavaScript plugins.
 4. GitHub: Used to creat and store the source code for the project.
 5. Balsamiq: For careating a wireframe to generate my idea for this project.
 
-
 ## Testings
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
 
 ## Deployment
 
