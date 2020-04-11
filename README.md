@@ -29,9 +29,9 @@ You can find the wireframe I made [here](wireframe/wireframe.pdf). The link dire
 ## Feature
 
 ### Existing Features
-- A responsive navigation bar
+- A responsive navigation bar that changes to a hamburger menu on smaller screen.
 - A modal, pop-up window for enquiry form
-- One page scrolling
+- One page scrolling which allows a smooth animated scroll effect pages.
 
 ## Technologies Used
 

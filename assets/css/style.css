@@ -6,9 +6,12 @@ body {
 
 .container-wrapper {
     background-color: #eef7cae7;
-
-
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 /*---------------- header */
 
