@@ -83,6 +83,7 @@ html {
     color: rgb(30, 32, 32);
     font-size: 12px;
     padding-top: 10px;
+    
 
 }
 
@@ -156,6 +157,7 @@ html {
 /*---------------- jumbotron */
 
 .jumbotron {
+    height: 340px;
     padding-top: 14px;
     padding-bottom: 14px;
     margin-top: 32px;
@@ -174,7 +176,11 @@ html {
     color: rgb(30, 32, 32);
     font-size: 1rem;
     margin: 25px 0;
+}
 
+.jumbotron a {
+    float: right;
+    
 }
 
 
@@ -240,6 +246,16 @@ html {
     margin-bottom: 50px;
 }
 
+.workshops-content .workshops-text {
+    border-style: groove;
+    border-color: rgba(30, 32, 32, 0.3);
+    border-width: 2px;
+    margin-bottom: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+
 
 .btn-light button {
     background-color: transparent;
@@ -257,8 +273,10 @@ html {
     margin-bottom: 30px;
 }
 
-.termsConditions-detais {
+.termsConditions-details {
     font-size: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /*---------------- footer*/
@@ -285,8 +303,19 @@ footer {
     letter-spacing: 10px;
 }
 
-.cp-text {
+.footer-content .footer-copyright {
+    width: 100%;
     text-align: center;
+}
+
+.footer-social {
+    width: 100%;
+    text-align: right;
+
+}
+
+.social-links {
+    letter-spacing: 5px;
 }
 
 
