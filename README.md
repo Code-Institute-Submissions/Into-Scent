@@ -6,14 +6,14 @@ and also designed to demonstrate my abilities with HTML and CSS using Bootstrap 
 ## UX
 
 This site is designed to provide the basic knowledge and safe usage of natural plant extracts / essential oils for those who are new to aromatherapy 
-or would like to improve the health of body and mind, offering different types of workshops. The user is able to see what workshops are currently organised and  to book a workshops online. 
+or would like to improve the health of body and mind, offering different types of workshops. The user is able to see what workshops are currently organised and  to book workshops online. 
 It is also possible to make an enquiry or request by filling a form.
 
 ### User Stories
 
 - As a parent, I am looking into some ways to bond with my baby. Meantime I would like to learn about essential oils and the benefits of massage. 
 - As a new to aromatherapy, I would like to learn the basics about essential oils and to be able to use them at home.
-- As a (potential/curious user), I am looking for some kind of alternatives to improve my physical and mental health in the most natural way possible.
+- As a (potential/curious user), I am looking for alternatives to improve my physical and mental health in the most natural way possible.
 
 ### The site owner's aim
 
@@ -31,7 +31,7 @@ You can find the wireframe I made [here](wireframe/wireframe.pdf). The link dire
 ### Existing Features
 - A responsive navigation bar that changes to a hamburger menu on smaller screen.
 - A modal, pop-up window for enquiry form
-- One page scrolling which allows a smooth animated scroll effect pages.
+- One page scrolling which allows smooth animated scroll effect pages.
 
 ## Technologies Used
 
@@ -40,16 +40,16 @@ For this project I have used the following technologies.
 1. HTML5: Used for structuring and presenting content on the website.
 2. CSS3: Used to style the website.
 3. jQuery & JavaScript: Used for modal and navbar.
-3. Bootstrap: A frontend framework to build a responsive and moblie-first website and get support for JavaScript plugins.
-4. GitHub: Used to creat and store the source code for the project.
-5. Balsamiq: For careating a wireframe to generate my idea for this project.
+3. Bootstrap: A frontend framework to build a responsive and mobile-first website and get support for JavaScript plugins.
+4. GitHub: Used to create and store the source code for the project.
+5. Balsamiq: For creating a wireframe to generate my idea for this project.
 
 ## Testing
 
-The code was tested in the followings;
+The code was tested in the followings:
 
--The W3C Markup Validation Service
--The W3C CSS Validation Service
+- The W3C Markup Validation Service
+- The W3C CSS Validation Service
 
 ## Deployment
 
