@@ -44,29 +44,29 @@ For this project I have used the following technologies.
 4. GitHub: Used to creat and store the source code for the project.
 5. Balsamiq: For careating a wireframe to generate my idea for this project.
 
-## Testings
+## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The code was tested in the followings;
+
+-The W3C Markup Validation Service
+-The W3C CSS Validation Service
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The deployment of the project was done with GitHub Pages.
+(https://tomokokomot.github.io/Into-Scent/)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The source code can be found [here](https://github.com/TomokokomoT/Into-Scent).
 
 ## Credits
 
 ### Media
 - The image used in this site was taken from [pixabay](https://pixabay.com/users/mareefe-2090044/).
+- The icons for this project were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Acknowledgements
 
+- I would like to thank my mentor Rohit Sharma for his great help as well as tutors from Code Institute. I could not achieve this project without them.
 - I received inspiration for this project from Code Institue's Bootstraping  Your Next Big Idea With Bootstrap 4 
 and [Neal's Yard Remedies](https://www.nealsyardremedies.com/).
 
